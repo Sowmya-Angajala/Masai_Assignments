@@ -1,8 +1,0 @@
-let myfetch=fetch("https://jsonplaceholder.typicode.com/users")
-.then(res =>{
-    return res.json()
-})
-.then(data=>{
-    console.log(data)
-})
-// console.log(myfetch)
